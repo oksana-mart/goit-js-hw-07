@@ -1,9 +1,9 @@
 const categoriesEl = document.querySelector('#categories');
-//console.log(categoriesEl);
+
 console.log(`'В списке ${categoriesEl.children.length} категории.'`);
 
 const itemsEl = document.querySelectorAll('#categories .item');
-//console.log(itemsEl);
+
 
 itemsEl.forEach(function (item) {
   const categoryTitleEl = item.querySelector('.item h2');
